@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* header-section */
+#portfolio-header{
+height: auto;
+width: 100%;
+background-color: #f6637d;
+z-index: 1;
+}
+.navbar-links{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 27%;
+}
+.navbar-links li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+    /* slider-section */
+    #porfolio-slider{
+        height: auto;
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)), url(../image/b1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .text{
+        font-size: 58px !important;
+    }
+    /* content-section */
+    #portfolio-content{
+        height: auto;
+        width: 100%;
+    }
+    .my-bio {
+        color: #f6637d ;
+    }
+    .project1
+    {
+        display: flex;
+    }
+    .project2{
+        display: flex;
+    }
+    button{
+        background-color:#f6637d ;
+        color: white;
+        padding: 10px 20px !important;
+        border-radius: 5px;
+        border: 1px solid;
+    }
+    .creative-project{
+        display: flex;
+    }
+
+    /* my-skills */
+     .my-skill{
+        color: #f6637d ;
+    }
+    .progress-bar{
+        background-color: #f6637d;
+    }
+    
+    /* my-fun-fact */
+    .my-fun-fact{
+        color: #f6637d;
+    }
+    .clock{
+        color: #f6637d;
+        text-align: center;
+        
+    }
+    .fun-fact{
+        display: flex;
+        margin-left: 30px;
+        
+    }
+    .thumbs{
+        margin-left: 30px;
+    }
+    .smile{
+margin-left: 30px;
+    }
+    .award{
+margin-left: 30px;
+    }
+    .clk{
+        margin-left: 30px;
+    }
+
+    /* my client */
+.client{
+    background-color: lightgray;
+}
+
+    .my-client{
+        color: #f6637d;
+    }
+    .client-detail{
+        display: flex;
+    }
+    .client1{
+        display: flex;
+    }
+    .client2{
+        display: flex;
+    }
+    .client3{
+        display: flex;
+    }
+
+    /* freelancer */
+    .freelancer{
+        background-color:#f6637d ;
+        color: white;
+        padding: 10px 20px !important;
+        border-radius: 5px;
+        border: 1px solid;
+        margin-left: 45%;
+        /* justify-content: center; */
+    }
+
+    /* Footer-section */
+    #Footer-section{
+        background-image:linear-gradient(to right, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.58)),url(../image/footer.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
+   .Email{
+    margin-top: 15%;
+   }
+   .Footer{
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+   /* responsive website */
+   @media  only screen and (max-width:480px)  {
+    .navbar-links{
+        list-style-type: none;
+        text-decoration: none;
+        display: block;
+        margin-left: 45%;
+    } 
+   
+   
+    .creative-project{
+        display: block;
+    }
+    .creative-project img{
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+    .fun-fact{
+        display: block;
+        margin-top: 10px;
+    }
+    .my-fun-fact{
+        margin-top: 10px !important;
+    }
+    .thumbs{
+        margin-top: 30px;
+    }
+    .smile{
+margin-top: 30px;
+    }
+    .award{
+margin-top: 30px;
+    }
+    .client-detail{
+        display: block;
+    
+    }
+    .client1{
+        display: block;
+        margin-bottom: 20px !important;
+    
+    }
+    .client2{
+        display: block;
+        margin-top: 10px !important;
+    }
+    .client3{
+        display: block;
+        margin-top: 10px !important;
+    }
+    .Footer{
+        display: block;
+        
+       }
+       .Footer .icon{
+        font-size: 28px;
+        margin: 0 !important;
+       }
+       .c1{
+margin-top: 20px;
+       }
+       .c2{
+margin-top: 20px;
+       }
+       .c3{
+margin-top: 20px;
+       }
+    
+    
+   }
